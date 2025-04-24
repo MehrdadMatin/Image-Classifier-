@@ -9,8 +9,6 @@ A convolutional neural network (CNN) classifier trained on CIFAR-10 dataset to r
 ✈️ Plane | 🚗 Car | 🐦 Bird | 🐱 Cat | 🦌 Deer  
 🐶 Dog | 🐸 Frog | 🐴 Horse | 🚢 Ship | 🚚 Truck
 
-![Sample Predictions](https://via.placeholder.com/600x200.png?text=Sample+Predictions+Showcase+-+Replace+With+Actual+Images)
-
 ## 🛠️ Installation
 
 1. Clone repository:
@@ -37,11 +35,6 @@ python main.py
 2. Run:
 ```python
 python main.py
-```
-
-Example with included samples:
-```python
-img = cv.imread('deer.jpg')  # Try car.jpg, horse.jpg, etc.
 ```
 
 ## 🧠 Model Architecture
@@ -75,6 +68,5 @@ Uses CIFAR-10 dataset:
 Full list in [requirements.txt](requirements.txt)
 
 ## 🔧 TODO
-- [ ] Add proper documentation images
 - [ ] Create prediction script with CLI arguments
 - [ ] Implement real-time webcam classification
